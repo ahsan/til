@@ -2,8 +2,13 @@
 e.g port 3000
 ```
 sudo lsof -t -i:3000
-OR
-sudo fuser -n tcp -k 3000
 ```
 
-
+# Kill a process
+```
+kill <process number>
+```
+Running on a specific port:
+```
+sudo fuser -n tcp -k 3000
+```
