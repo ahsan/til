@@ -16,6 +16,11 @@
 - VM or a physical computer that serves as a worker machine
 - has Kubelet running on it which communicates with the master over the Kuberneters API
 
+<center>
+
+![](https://d33wubrfki0l68.cloudfront.net/99d9808dcbf2880a996ed50d308a186b5900cec9/40b94/docs/tutorials/kubernetes-basics/public/images/module_01_cluster.svg)
+</center>
+
 > Masters manage the cluster and the nodes are used to host the running applications.
 
 <hr>
